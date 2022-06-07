@@ -1,0 +1,17 @@
+{
+    "name": "ehsan/microframework.php",
+    "autoload": {
+        "psr-4": {
+            "Ehsan\\MicroframeworkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ehsan Aghayari",
+            "email": "ehsanaghayari313@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
