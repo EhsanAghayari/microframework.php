@@ -11,4 +11,5 @@ function assets_url($route): string{
 function random_element($arr){
     shuffle($arr);
     return array_pop($arr);
+
 }
