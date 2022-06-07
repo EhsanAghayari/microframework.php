@@ -1,5 +1,6 @@
 <?php
 
-include "vendor/autoload.php";
+include "bootstrap/init.php";
 
-new App\Core\Request();
+
+var_dump($_ENV);
