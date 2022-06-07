@@ -2,7 +2,7 @@
     "name": "ehsan/microframework.php",
     "autoload": {
         "psr-4": {
-            "Ehsan\\MicroframeworkPhp\\": "src/"
+            "App\\": "App/"
         }
     },
     "authors": [
