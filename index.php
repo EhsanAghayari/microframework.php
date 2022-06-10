@@ -1,7 +1,9 @@
 <?php
+# Front Controller
 
-use App\Utilities\Lang;
+use App\Core\StupidRouter;
 
 include "bootstrap/init.php";
 
-echo Lang::persian_numbers("hell5o012345");
+$router = new StupidRouter();
+$router->run();
