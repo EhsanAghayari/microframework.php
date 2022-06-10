@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h2 style="text-align: center; margin: 100px;">Page Not Found ...</h2>
+<h2 style="text-align: center; margin: 100px;font-family: Tahoma,serif;">Page Not Found ...</h2>
 
 </body>
 </html>
