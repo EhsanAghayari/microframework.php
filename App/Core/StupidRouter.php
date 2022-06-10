@@ -8,6 +8,7 @@ class StupidRouter{
 
     public function __construct(){
         $this->routes = [
+            '/microframework.php/' => 'home/index.php',
             '/microframework.php/colors/blue' => 'colors/blue.php',
             '/microframework.php/colors/red' => 'colors/red.php',
             '/microframework.php/colors/green' => 'colors/green.php',
@@ -28,6 +29,6 @@ class StupidRouter{
 
     private function includeAndDie($viewPath){
         include $viewPath;
-        Die();
+        die();
     }
 }
